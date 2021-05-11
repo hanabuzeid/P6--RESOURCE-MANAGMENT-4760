@@ -1,0 +1,22 @@
+Resource Management P5
+________________________________________________
+
+This project is  designed  and  implemented  a  resource  management  module  
+for  our  Operating  SystemSimulatoross. In this project, you will 
+use the deadlock detection and recovery strategy to manage resources.the beginning,oss will allocate shared memory 
+for system data structures, including resource descriptors for each resource. All the resources are static but some of 
+them may be shared.The resource descriptor is a fixed size structure and contains information on managing the resources 
+withinoss. Make sure that you allocate space to keep track of activities that affectthe resources,  
+such as request,  allocation,  and release. The resource descriptors will reside in shared memory and will be accessible to the children.
+ When verboseis off, it should only log when a deadlock is detected, and how it was resolved. -v  will more information printed to the console and log file.
+
+ ________________________________________________
+
+EXECUTION:
+
+MAKE CLEAN
+MAKE
+
+./oss
+
+
